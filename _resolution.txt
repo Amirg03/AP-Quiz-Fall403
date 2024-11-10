@@ -1,0 +1,7 @@
+Types of Git Conflicts:
+1. **Merge Conflicts**: Occurs when two branches have changes to the same part of the file.
+2. **Rebase Conflicts**: Happens when applying changes from one branch to another during a rebase operation.
+
+Resolving Conflicts:
+1. **Merge Conflict**: Git will mark the conflicting area in the file. You need to manually resolve it by choosing the correct version or merging the changes.
+2. **Rebase Conflict**: During rebase, conflicts must be resolved one by one. After resolving, continue with the rebase process using `git rebase --continue`.
